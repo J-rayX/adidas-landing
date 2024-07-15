@@ -1,18 +1,18 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import Hero from './sections/Hero'
 import Collection from './sections/Collection'
 import Impossibility from './sections/Impossibility'
-import Nav from './sections/Nav'
+import Nav from './components/Nav'
 
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <main className='relative'>
-      <nav>
+    <main className='bg-gray-900 relative'>
+      <section>
         <Nav />
-      </nav>
-      <section className='padding'>
+      </section>
+      <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
         -ReebokVideo
       </section>
@@ -26,12 +26,6 @@ function App() {
       </section>
       
 
-      <section className='padding'>
-        Quality
-      </section>
-      <section className='padding'>
-        Quality
-      </section>
     </main>
 
   )
