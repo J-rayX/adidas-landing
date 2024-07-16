@@ -14,7 +14,7 @@ const NextLevel = () => {
                 <img className='z-10 w-[100%] max-sm:w-full' src={shoeTrGray} alt="Ultraboost sneakers" />
 
                 <div>
-                    <img className=' absolute w-[90px] h-[90px] l-0 top-60' src={discountLogo} alt="" />
+                    <img className=' absolute w-[90px] h-[90px] l-0 top-60 max-sm:left-6 max-sm:-top-3 max-sm:w-[50px] max-sm:h-[50px]' src={discountLogo} alt="" />
                 </div>
                 
             </div>

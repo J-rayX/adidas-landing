@@ -5,6 +5,7 @@ import Collection from './sections/Collection'
 import Impossibility from './sections/Impossibility'
 import Nav from './components/Nav'
 import NextLevel from './sections/NextLevel'
+import TextHero from './sections/TextHero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,10 @@ function App() {
       <section className=''>
         <Hero />
       </section>
+
+      {/* <section className=''>
+        <TextHero />
+      </section> */}
       
       <section className=''>
         <NextLevel />
