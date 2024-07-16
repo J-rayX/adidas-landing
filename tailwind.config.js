@@ -37,7 +37,24 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      animation: {
+				fadeInAnimation: 'fadeIn 1s ease-in-out',
+				fadeOutAnimation: 'fadeOut 3s ease-in-out',
+
+			},
+
+			keyframes: {
+				fadeIn: {
+					from: { opacity: 0 },
+					to: { opacity: 1 },
+				},
+        fadeOut: {
+					from: { opacity: 1 },
+					to: { opacity: 0 },
+				},
+			},
+
     },
   },
   plugins: [],

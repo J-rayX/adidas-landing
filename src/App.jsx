@@ -8,11 +8,11 @@ import Nav from './components/Nav'
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <main className='bg-gray-900 relative'>
-      <section>
+    <main className='bg-gray-900 relative text-white'>
+      <section className=''>
         <Nav />
       </section>
-      <section className='xl:padding-l wide:padding-r padding-b'>
+      <section className=' xl:padding-l wide:padding-r padding-b'>
         <Hero />
         -ReebokVideo
       </section>
