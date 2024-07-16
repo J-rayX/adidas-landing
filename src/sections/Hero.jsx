@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section 
       id='home'
-      className='w-full flex flex-col xl:flex-row justify-center min-lg:min-h-screen max-lg:max-container border-2 border-white-600'
+      className='w-full flex flex-col xl:flex-row justify-center min-lg:min-h-screen max-lg:max-container'
       >
 
       <video

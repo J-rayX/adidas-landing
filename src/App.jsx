@@ -18,9 +18,9 @@ function App() {
         <Hero />
       </section>
 
-      {/* <section className=''>
+      <section className=''>
         <TextHero />
-      </section> */}
+      </section>
       
       <section className=''>
         <NextLevel />
