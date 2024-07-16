@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section 
       id='home'
-      className='w-full flex flex-col xl:flex-row justify-center min-lg:min-h-screen max-lg:max-container border-2 border-red-600'
+      className='w-full flex flex-col xl:flex-row justify-center min-lg:min-h-screen max-lg:max-container border-2 border-white-600'
       >
 
       <video
@@ -14,7 +14,7 @@ const Hero = () => {
           className="select-none object-contain z-8 w-screen min-w-full h-full max-w-none"
         >
           <source className='select-none '
-            src="/src/assets/videos/heroVideo.mp4"
+            src="../src/assets/videos/heroVideo.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.

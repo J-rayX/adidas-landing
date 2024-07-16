@@ -15,7 +15,7 @@ const Nav = () => {
     <header className="min-lg:padding-x w-dvw">
         <nav className="flex justify-evenly items-center py-4 z-10">
           <div>
-            <ul className=" flex flex-1 justify-center items-center text-lg font-bold gap-16 max-lg:hidden text-white">
+            <ul className=" flex flex-1 justify-center items-center text-md font-bold gap-16 max-lg:hidden text-white">
               <li className="leading-normal text-slate-200 "><a href="#" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">MEN</a></li>
               <li className="leading-normal text-slate-200"><a href="#" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">WOMEN</a></li>
               <li className="leading-normal text-slate-200"><a href="#" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">KIDS</a></li>
