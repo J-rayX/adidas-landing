@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import Collection from './sections/Collection'
 import Impossibility from './sections/Impossibility'
 import Nav from './components/Nav'
+import NextLevel from './sections/NextLevel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,12 +15,12 @@ function App() {
       </section>
       <section className=''>
         <Hero />
-        -ReebokVideo
       </section>
-      {/* <section className=' xl:padding-l wide:padding-r padding-b'>
-        <Hero />
-        -Former Hero
-      </section> */}
+      
+      <section className=''>
+        <NextLevel />
+      </section>
+
       <section className='padding'>
         <Collection />
         : Adidas

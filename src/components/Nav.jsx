@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <header className="min-lg:padding-x w-dvw">
-        <nav className="flex justify-evenly items-center py-4 z-10">
+        <nav className="flex justify-evenly items-center py-4 z-50">
           <div>
             <ul className=" flex flex-1 justify-center items-center text-md font-bold gap-16 max-lg:hidden text-white">
               <li className="leading-normal text-slate-200 "><a href="#" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">MEN</a></li>
@@ -50,7 +50,7 @@ const Nav = () => {
             </div>
             {/* hover:underline hover:duration-300 cursor-pointer */}
             {/* <div className={`h-dvh w-screen bg-black absolute z-10 px-4 ${!isOpen ? 'animate-fadeOutAnimation': ''}`} style={{display: isOpen ? 'block': 'none' }}> */}
-            <div className="h-screen w-screen bg-black absolute z-10 px-4" style={{display: isOpen ? 'block': 'none' }}>
+            <div className="h-screen w-screen bg-black absolute z-50 px-4" style={{display: isOpen ? 'block': 'none' }}>
               <ul className=" flex flex-col gap-16 text-white pt-4 animate-fadeInAnimation" >
                 <li className="leading-normal font-bold text-3xl text-slate-200 cursor-pointer"><a href="#"  className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">MEN</a></li>
                 <li className="leading-normal font-bold text-3xl text-slate-200 cursor-pointer"><a href="#"  className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">WOMEN</a></li>
