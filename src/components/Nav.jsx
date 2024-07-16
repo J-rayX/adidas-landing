@@ -50,8 +50,8 @@ const Nav = () => {
             </div>
             
             {/* <div className={`h-dvh w-screen bg-black absolute z-10 px-4 ${!isOpen ? 'animate-fadeOutAnimation': ''}`} style={{display: isOpen ? 'block': 'none' }}> */}
-            <div className="h-dvh w-screen bg-black absolute z-10 px-4" style={{display: isOpen ? 'block': 'none' }}>
-              <ul className=" flex flex-col h-dvh gap-8 text-white pt-4 animate-fadeInAnimation" >
+            <div className="h-screen w-screen bg-black absolute z-10 px-4" style={{display: isOpen ? 'block': 'none' }}>
+              <ul className=" flex flex-col gap-16 text-white pt-4 animate-fadeInAnimation" >
                 <li className="leading-normal font-bold text-3xl text-slate-200">MEN</li>
                 <li className="leading-normal font-bold text-3xl text-slate-200">WOMEN</li>
                 <li className="leading-normal font-bold text-3xl text-slate-200">KIDS</li>

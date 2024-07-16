@@ -39,8 +39,8 @@ export default {
         "wide": "1440px"
       },
       animation: {
-				fadeInAnimation: 'fadeIn 1s ease-in-out',
-				fadeOutAnimation: 'fadeOut 3s ease-in-out',
+				fadeInAnimation: 'fadeIn 0.8s ease-in-out',
+				fadeOutAnimation: 'fadeOut 2s ease-in-out',
 
 			},
 

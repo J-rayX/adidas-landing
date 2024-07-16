@@ -8,7 +8,7 @@ import Nav from './components/Nav'
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <main className='bg-gray-900 relative text-white'>
+    <main className='bg-gray-950 relative text-white'>
       <section className=''>
         <Nav />
       </section>
