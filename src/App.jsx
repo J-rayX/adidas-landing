@@ -7,6 +7,7 @@ import Nav from './components/Nav'
 import NextLevel from './sections/NextLevel'
 import TextHero from './sections/TextHero'
 import Products from './sections/Products'
+import Footer from './sections/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,13 +32,18 @@ function App() {
         <NextLevel />
       </section>
 
-      <section className='padding'>
+      {/* <section className='padding'>
         <Collection />
         : Adidas
-      </section>
+      </section> */}
       <section className='padding'>
         <Impossibility />
         -UA WelcomeToTheNextLevel
+      </section>
+
+      <section className='padding'>
+        <Footer />
+        Footer
       </section>
       
 

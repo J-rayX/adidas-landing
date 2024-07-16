@@ -26,7 +26,7 @@ export const productCards = [
     },
     {
         id: 3,
-        pName: "Ultraboost Light Baseball Cleats",
+        pName: "Ultraboost Light Cleats",
         category: "Wome's TERREX",
         desc: "Added strength with controlled stability.",
         imgUrl: shoeGray
