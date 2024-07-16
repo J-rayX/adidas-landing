@@ -1,18 +1,25 @@
 import React from 'react'
 import Button from '../components/Button'
+import {discountLogo, shoeTrGray} from '../assets/images'
 
 const NextLevel = () => {
   return (
     <section
         id=''
-        className='flex flex-col xl:flex-row justify-center items-center  gap-40 mx-20 px-5 py-40 max-sm:py-20  max-sm:mx-0 max-sm:gap-10'
+        className='flex flex-col xl:flex-row justify- items-center  gap-40 mx-20 px-5 py-40 max-sm:py-20  max-sm:mx-0 max-sm:gap-10'
         >
             <div className='flex xl:w-3/5 justify-evenly items-center relative max-sm:p-0'>
-                <div className="absolute w-[590px] h-[180px] max-sm:w-[250px] max-sm:h-[95px] mt-5 max-sm:mt-2 bg-yellow-100 rounded-full">
+                <div className="absolute w-[840px] h-[320px] max-sm:w-[250px] max-sm:h-[95px] mt-5 max-sm:mt-2 bg-yellow-100 rounded-full">
                 </div>
-                <img className='z-10 w-90 max-sm:w-full' src="/src/assets/images/shoeTrGray.png" alt="" />
+                <img className='z-10 w-[100%] max-sm:w-full' src={shoeTrGray} alt="Ultraboost sneakers" />
+
+                <div>
+                    <img className=' absolute w-[90px] h-[90px] l-0 top-60' src={discountLogo} alt="" />
+                </div>
                 
             </div>
+
+           
 
             <div className='relative xl:w-2/5 flex flex-col jusitfy-center items-start max-sm:items-center w-full max-xl:padding-x max-sm:p-0'>
                 <p className='text-xl max-sm:text-center'>2024 <span>New </span> Dawn</p>
