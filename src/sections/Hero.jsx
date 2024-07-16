@@ -8,12 +8,12 @@ const Hero = () => {
       >
 
       <video
-          autoPlay playsInline
+          autoPlay playsInline 
           loop
           muted
-          className="fixed z-10 w-screen min-w-full min-h-dvh max-w-none"
+          className="select-none object-contain z-10 w-screen min-w-full h-full max-w-none"
         >
-          <source
+          <source className='select-none '
             src="/src/assets/videos/heroVideo.mp4"
             type="video/mp4"
           />
