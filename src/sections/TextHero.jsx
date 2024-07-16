@@ -4,8 +4,8 @@ import Button from '../components/Button'
 const TextHero = () => {
   return (
     <section>
-        <div className="flex flex-col justify-center items-center gap-10 bg-[url('/src/assets/images/textHeroBg.png')] bg-no-repeat bg-cover py-60">
-            <div className='flex flex-col w-[40%] justify-center items-center text-center'>
+        <div className="flex flex-col w-full justify-center items-center gap-10 bg-[url('/src/assets/images/textHeroBg.png')] bg-no-repeat bg-cover max-sm:bg-center py-60">
+            <div className='flex flex-col w-[40%] max-sm:w-[100%] max-sm:px-4 justify-center items-center text-center'>
                 <h1 className='mt-10 text-4xl uppercase font-bold max-sm:text-[42px] max-sm:leading-[42px] max-sm:text-center'>
                     Get on with Speed and Fit
                 </h1>
