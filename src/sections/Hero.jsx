@@ -14,7 +14,7 @@ const Hero = () => {
           className="select-none object-contain z-8 w-screen min-w-full h-full max-w-none"
         >
           <source className='select-none '
-            src="../src/assets/videos/heroVideo.mp4"
+            src="https://res.cloudinary.com/diiayntjq/video/upload/v1721137776/heroVideo.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
