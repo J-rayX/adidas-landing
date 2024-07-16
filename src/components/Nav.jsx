@@ -33,13 +33,13 @@ const Nav = () => {
             </ul>
           </div>
           <div className="hidden max-lg:block w-screen">
-            <div className="flex flex-1 justify-between items-center gap-16 pt-10 px-4">
+            <div className="flex flex-1 justify-between items-center gap-16 pt-2 px-4">
               <div>
                 <a href="/">
                   <img src={ headerLogo } alt="Logo" width={49} height={40} />
                 </a>
               </div>
-              <div className="hamburger group p-3 transition ease transform duration-300" onClick={toggleNavbar}>
+              <div className="hamburger group p-0 transition ease transform duration-300" onClick={toggleNavbar}>
                   {
                     isOpen ? <img className="rounded-full h-11 w-11 p-1 border-2 border-white group-hover:rotate-90 transition ease transform duration-300" src={hamburgerClose} alt="hamburger" width={32} height={32} 
                     /> : 

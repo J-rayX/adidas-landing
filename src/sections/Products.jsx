@@ -11,7 +11,7 @@ const Products = () => {
         <div className="flex snap-x snap-mandatory w-full mx:auto overflow-scroll gap-4">
             {
                 productCards.map((product, i) => (
-                    <div key={i} className="snap-center shrink-0 bg-white  flex w-[640px] max-sm:w-[260px] h-[600px] max-sm:h-[240px] flex-col justify-between items-center">
+                    <div key={i} className="snap-center shrink-0 bg-white  flex w-[640px] max-sm:w-[260px] h-[500px] max-sm:h-[240px] flex-col justify-between items-center">
                         <img className='w-[400px] h-[340px] max-sm:w-[160px] max-sm:h-[140px]' src={product.imgUrl} alt="" />
 
                         <div className='bg-black text-white flex flex-col gap-4 max-sm:gap-1 w-full px-2 py-2'>
