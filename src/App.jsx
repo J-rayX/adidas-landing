@@ -12,10 +12,14 @@ function App() {
       <section className=''>
         <Nav />
       </section>
-      <section className=' xl:padding-l wide:padding-r padding-b'>
+      <section className=''>
         <Hero />
         -ReebokVideo
       </section>
+      {/* <section className=' xl:padding-l wide:padding-r padding-b'>
+        <Hero />
+        -Former Hero
+      </section> */}
       <section className='padding'>
         <Collection />
         : Adidas
