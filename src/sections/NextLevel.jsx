@@ -6,15 +6,15 @@ const NextLevel = () => {
   return (
     <section
         id=''
-        className='flex flex-col xl:flex-row justify- items-center  gap-40 mx-20 px-5 py-40 max-sm:py-20  max-sm:mx-0 max-sm:gap-10'
+        className='flex flex-col xl:flex-row justify- items-center  gap-10 mx-10 px-0 py-40 max-sm:py-20  max-sm:mx-0 max-sm:gap-10'
         >
             <div className='flex xl:w-3/5 justify-evenly items-center relative max-sm:p-0'>
-                <div className="absolute w-[840px] h-[320px] max-sm:w-[250px] max-sm:h-[95px] mt-5 max-sm:mt-2 bg-yellow-100 rounded-full">
+                <div className="absolute w-[640px] h-[220px] max-sm:w-[250px] max-sm:h-[95px] mt-5 max-sm:mt-2 bg-yellow-100 rounded-full">
                 </div>
-                <img className='z-10 w-[100%] max-sm:w-full' src={shoeTrGray} alt="Ultraboost sneakers" />
+                <img className='z-10 w-[800px] max-sm:w-full' src={shoeTrGray} alt="Ultraboost sneakers" />
 
                 <div>
-                    <img className=' absolute w-[90px] h-[90px] l-0 top-60 max-sm:left-10 max-sm:-top-1 max-sm:w-[50px] max-sm:h-[50px]' src={discountLogo} alt="" />
+                    <img className=' absolute w-[120px] h-[120px] -ml-20 top-60 max-sm:left-10 max-sm:-top-1 max-sm:w-[50px] max-sm:h-[50px]' src={discountLogo} alt="" />
                 </div>
                 
             </div>
