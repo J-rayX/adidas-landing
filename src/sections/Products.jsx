@@ -11,7 +11,7 @@ const Products = () => {
 
     useGSAP(
         () => {
-        gsap.from('.header', { x: 100  });
+        // gsap.from('.header', { x: 100  });
         // gsap.to('#title', { opacity: 1, y: 0 })
         // gsap.to('#originals', { rotation: 45  });
         // gsap.to('#originals', { y: 0, opacity: 1})
@@ -40,9 +40,9 @@ const Products = () => {
     )
 
     return (
-        <section ref={container} className='w-full py-40 max-sm:py-20'>
+        <section ref={container} className='w-full py-40 max-sm:py-20 z-0'>
             <div >
-                <h3 className='header'>
+                <h3 className='header z-0'>
                     <span id='originals' className='originals uppercase text-4xl max-sm:text-lg text-white font-bold italic mb-10 max-sm:mb-2 px-10 max-sm:px-2' >Shop by Originals</span></h3>
             </div>
             

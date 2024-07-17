@@ -38,7 +38,7 @@ function App() {
         <Hero />
       </section>
 
-      <section>
+      <section className='z-0'>
         <Products />
       </section>
 
