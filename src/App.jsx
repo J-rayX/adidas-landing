@@ -32,18 +32,10 @@ function App() {
         <NextLevel />
       </section>
 
-      {/* <section className='padding'>
-        <Collection />
-        : Adidas
-      </section> */}
-      <section className='padding'>
-        <Impossibility />
-        -UA WelcomeToTheNextLevel
-      </section>
 
-      <section className='padding'>
+
+      <section className=''>
         <Footer />
-        Footer
       </section>
       
 

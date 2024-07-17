@@ -2,7 +2,7 @@ import React from 'react'
 
 const Impossibility = () => {
   return (
-    <div>Impossibility</div>
+    <div></div>
   )
 }
 
