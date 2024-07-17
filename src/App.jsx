@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 // import './App.css'
 import Hero from './sections/Hero'
 import Collection from './sections/Collection'
@@ -9,11 +9,29 @@ import TextHero from './sections/TextHero'
 import Products from './sections/Products'
 import Footer from './sections/Footer'
 
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react'
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+ 
+
+
 function App() {
   const [count, setCount] = useState(0)
+
+  const container = useRef();
+
+  useGSAP(
+    () => {
+      gsap.to('.box', { rotation: 0  });
+    },
+    { scope: container }
+  )
+
   return (
-    <main className='bg-gray-950 relative text-white'>
-      <section className=''>
+    <main ref={container} className='app bg-gray-950 relative text-white'>
+      <section className='box'>
         <Nav />
       </section>
       <section className=''>
@@ -32,13 +50,9 @@ function App() {
         <NextLevel />
       </section>
 
-
-
       <section className=''>
         <Footer />
       </section>
-      
-
     </main>
 
   )
